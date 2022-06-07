@@ -1,0 +1,9 @@
+
+package com.mycompany.aula011;
+public class Visitante extends Pessoa {
+    //Hierarquia pobre
+    public void Visitante(){
+        System.out.println("=========Visitante===========");
+    }   
+    
+}
