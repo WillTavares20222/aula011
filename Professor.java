@@ -9,7 +9,8 @@ public final class Professor extends Aluno{
         System.out.println("===================Professor============");
     }
     public void receberAumento(int aum){
-        System.out.println(" O Meu Aumento no Salario foi de " +  this.salario += am);
+         this.salario += am;
+        System.out.println(" Meu aumento desse mês foi de " + this.salario);
     }
 
     public String getEspecialidade() {
